@@ -28,4 +28,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Testing BDD
-        run: behave
+        run: cd bdd && behave

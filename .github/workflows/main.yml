@@ -5,8 +5,7 @@ jobs:
     name: GitHub Action for behave
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
     - name: GitHub Action for behave
-      uses: cclauss/GitHub-Action-for-behave-ci@master
       with:
         args: behave

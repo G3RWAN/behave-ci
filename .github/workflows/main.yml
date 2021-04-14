@@ -7,6 +7,6 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: GitHub Action for behave
-      uses: cclauss/GitHub-Action-for-behave@master
+      uses: cclauss/GitHub-Action-for-behave-ci@master
       with:
         args: behave
